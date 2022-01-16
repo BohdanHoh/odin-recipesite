@@ -1,0 +1,1 @@
+This is my first HTML project to practice what I've learned so far.  This should include my basic HTML elements including the boilerplate as well as images and links with their corresponding attributes.
