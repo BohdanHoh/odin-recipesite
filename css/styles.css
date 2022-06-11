@@ -9,13 +9,15 @@
     display: grid;
     grid-template-columns: 25% 25% 25%;
     grid-template-rows: 25% 25% 25%;
-    grid-column-gap: 2%;
-    grid-row-gap: 2%;
+    justify-items: center;
+    align-items: center;
     border-style: solid;
     border-color: black;
     border-width: 2px;
     text-align: center;
     font-size: 50;
+    max-width: 100%;
+    height: auto;
 }
 
 .recipecard1 {
@@ -24,6 +26,18 @@
     border-style: solid;
     border-width: 2px;
     border-color: blue;
+    max-width: 100%;
+    height: auto;
+}
+
+.globe {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    border-style: solid;
+    border-width: 2px;
+    border-color: blue;
+    max-width: 100%;
+    height: auto;
 }
 
 .recipecard2 {
@@ -32,6 +46,8 @@
     border-style: solid;
     border-width: 2px;
     border-color: blue;
+    max-width: 100%;
+    height: auto;
 }
 
 .recipecard3 {
@@ -40,6 +56,8 @@
     border-style: solid;
     border-width: 2px;
     border-color: blue;
+    width: 100%;
+    height: auto;
 }
 
 .recipecard4 {
@@ -48,4 +66,6 @@
     border-style: solid;
     border-width: 2px;
     border-color: blue;
+    max-width: 100%;
+    height: auto;
 }
