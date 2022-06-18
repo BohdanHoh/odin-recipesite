@@ -6,71 +6,44 @@
 }
 
 .recipelinks {
-    border-style: none;
-    border-color: black;
-    border-width: 2px;
-}
-
-.globe {
-    padding: 1rem;
-    width: 25%;
-    border-style: solid;
-    border-width: 2px;
-    border-color: blue;
+    background-image: url("../img/globe.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 500px 500px;
+    width: 100%;
+    min-height: 500px;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 10%;
+    grid
 }
 
 .recipecard1 {
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
-    align-items: center;
-    width: 25%;
     background-color: white;
-    padding: 1rem;
-    border-style: solid;
-    border-width: 2px;
-    border-color: blue;
+    border-style: none;
     border-radius: .5rem;
+    box-shadow: 0 1px 10px 0 black;
 }
 
 .recipecard2 {
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
-    align-items: center;
-    width: 25%;
     background-color: white;
-    padding: 1rem;
-    border-style: solid;
-    border-width: 2px;
-    border-color: blue;
+    border-style: none;
     border-radius: .5rem;
+    box-shadow: 0 1px 10px 0 black;
 }
 
 .recipecard3 {
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
-    align-items: center;
-    width: 25%;
     background-color: white;
-    padding: 1rem;
-    border-style: solid;
-    border-width: 2px;
-    border-color: blue;
+    border-style: none;
     border-radius: .5rem;
+    box-shadow: 0 1px 10px 0 black;
 }
 
 .recipecard4 {
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
-    align-items: center;
-    width: 25%;
     background-color: white;
-    padding: 1rem;
-    border-style: solid;
-    border-width: 2px;
-    border-color: blue;
+    border-style: none;
     border-radius: .5rem;
+    box-shadow: 0 1px 10px 0 black;
 }
