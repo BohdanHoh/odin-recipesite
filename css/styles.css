@@ -1,33 +1,42 @@
+body {
+    background-color: white;
+}
+
 .pagehead {
-    border-width: 2px;
-    border-color: black;
-    border-style: solid;
-    font-size: 30px;
+    color: rgb(2, 32, 2);
+    text-align: center;
+    font-size: 3em;
 }
 
 .recipelinks {
     background-image: url("../img/globe.png");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 500px 500px;
     width: 100%;
     min-height: 500px;
-    padding: 50px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    grid-gap: 10%;
-    grid
+    justify-items: center;
+    align-items: center;
 }
 
 .recipecard1 {
-    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 40%;
+    background-color: white; 
     border-style: none;
     border-radius: .5rem;
     box-shadow: 0 1px 10px 0 black;
 }
 
 .recipecard2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 40%;
     background-color: white;
     border-style: none;
     border-radius: .5rem;
@@ -35,6 +44,10 @@
 }
 
 .recipecard3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 40%;
     background-color: white;
     border-style: none;
     border-radius: .5rem;
@@ -42,6 +55,10 @@
 }
 
 .recipecard4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 40%;
     background-color: white;
     border-style: none;
     border-radius: .5rem;
