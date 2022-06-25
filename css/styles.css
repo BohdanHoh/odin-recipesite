@@ -1,5 +1,5 @@
 .pagehead {
-    color: rgb(2, 32, 2);
+    color: black;
     text-align: center;
     font-size: 3em;
 }
@@ -8,11 +8,10 @@
     background-image: url("../img/globe.png");
     background-repeat: no-repeat;
     background-position: center;
-    width: 100%;
-    min-height: 500px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    grid-gap: 1rem;
+    padding: 1rem;
     justify-items: center;
     align-items: center;
 }
@@ -21,8 +20,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 2%;
-    max-width: 100%;
+    width: 40%;
+    padding: 1rem;
     background-color: white; 
     border-style: none;
     border-radius: .5rem;
@@ -34,13 +33,12 @@
 }
 
 .card__link {
+    color: black;
     font-size: 1.5em;
-    padding-top: 5%; 
+    margin-top: 5%; 
 }
 
-@media screen and (max-width: 500px) {
-    .recipes {
-        grid-template-columns: 1fr;
-        grid-gap: 5%;
-    }
+.card__link:hover {
+    background-color: rgb(34, 73, 34);
+    color: white
 }
