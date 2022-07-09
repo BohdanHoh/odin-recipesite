@@ -13,8 +13,8 @@
     background-repeat: no-repeat;
     background-position: center;
     display: grid;
-    grid-template-columns: repeat(2, minmax(450px, 1fr));
-    grid-template-rows: repeat(2, minmax(75vh, 1fr));
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     grid-gap: 1rem;
     padding: 1rem;
     justify-items: center;
@@ -111,4 +111,16 @@
 
 li {
     padding: 5px;
+}
+
+@media (max-width: 500px) {
+    .recipes {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+        grid-gap: 1rem;
+        padding: 1rem;
+        justify-items: center;
+        align-items: center;
+    }
 }
